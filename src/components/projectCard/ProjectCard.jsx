@@ -25,7 +25,7 @@ const ProjectCard = ({ item }) => {
         }}
       >
         <div className="img-container">
-          <img src={item.img} alt={item.title} />
+          <img src={`${import.meta.env.BASE_URL}${item.img}`} alt={item.title} />/>
         </div>
       </motion.div>
       

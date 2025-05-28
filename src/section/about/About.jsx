@@ -34,7 +34,7 @@ const About = () => {
               },
             }}
           >
-            <img src="../about.jpg" alt="about" />
+            <img src={`${import.meta.env.BASE_URL}about.jpg`} alt="about" />
             <div className="img-border"></div>
           </motion.div>
           

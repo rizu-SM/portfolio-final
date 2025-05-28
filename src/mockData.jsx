@@ -83,7 +83,7 @@ export const projectData = [
     num: "01",
     title: "Simplified File System Management Simulator",
     desc: "A simplified file system simulator that replicates core file management operations in virtual memory. Supports file creation, deletion, modification, metadata handling, and memory compaction. Designed with extensible functionality to mimic real-world file system behavior.",
-    img: "../Capture.png",
+    img: `${import.meta.env.BASE_URL}Capture.png`,
     isReverced: true,
     gitUrl: "https://github.com/rizu-SM/File-Management-System-Simulator",
   },

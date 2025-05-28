@@ -133,7 +133,7 @@ const Hero = () => {
             animate={{ scale: 1, opacity: 1, transition: { duration: 0.8, delay: 0.3 } }}
           >
             <div className="image-container">
-              <img src="../MyImg.jpeg" alt="hamroun sami" />
+              <img src={`${import.meta.env.BASE_URL}MyImg.jpeg`} alt="hamroun sami" />
               <div className="image-border"></div>
             </div>
           </motion.div>
