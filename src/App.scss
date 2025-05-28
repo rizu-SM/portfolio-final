@@ -1,0 +1,99 @@
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
+
+// Define color variables
+$dark-background: #121212;
+$dark-surface: #1e1e1e;
+$text-primary: #ffffff;
+$text-secondary: #cccccc;
+$accent-color: #ff5722; // Orange accent color
+$accent-hover: #ff7043;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 1366px;
+  margin: auto;
+  background-color: $dark-background;
+  color: $text-primary;
+  
+  @include tablet() {
+    width: 100%;
+  }
+  
+  @include mobile() {
+    width: 100%;
+  }
+}
+
+.app {
+  background-color: $dark-background;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sectionTittle{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: $text-primary;
+  
+  @include tablet() {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  @include mobile() {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+// Common button styles
+button {
+  background-color: $accent-color;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: $accent-hover;
+  }
+}
+
+a {
+  color: $text-primary;
+  text-decoration: none;
+}
+
+// Common section padding
+.section {
+  padding: 80px 20px;
+  
+  @include tablet() {
+    padding: 60px 20px;
+  }
+  
+  @include mobile() {
+    padding: 40px 15px;
+  }
+}
