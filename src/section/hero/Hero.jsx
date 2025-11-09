@@ -63,7 +63,7 @@ const Hero = () => {
             
             <div className="title-container">
               <h2>
-                cyber security and <span>web Developer</span>
+                Cybersecurity Student,<span>Web Developer</span> & CTF Player
               </h2>
               <div className="location">
                 <div className="location-dot"></div>
@@ -71,23 +71,23 @@ const Hero = () => {
               </div>
             </div>
             
-            <p>Passionate about clean code and user-centric design. Creating innovative web solutions that deliver exceptional user experiences.</p>
+            <p>Based in Algeria. Passionate about clean code, security, and user-centric design — creating innovative and secure web solutions that deliver exceptional experiences while sharpening my skills toward becoming a penetration tester.</p>
             
             <div className="cta-buttons">
               <motion.a
-                href="../../public/myCv.pdf"
-                download="hamroun_sami_CV.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="primary-btn"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <button>
-                  Download Resume
-                  <FileDownloadOutlinedIcon />
-                </button>
-              </motion.a>
+                  href={`${import.meta.env.BASE_URL}myCv.pdf`}
+                  download="hamroun_sami_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="primary-btn"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <button>
+                    Download Resume
+                    <FileDownloadOutlinedIcon />
+                  </button>
+                </motion.a>
               <motion.a 
                 href="#Contact" 
                 className="secondary-btn"

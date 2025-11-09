@@ -49,11 +49,10 @@ const About = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } }}
               >
-                Hi, I'm Hamroun Sami Abdelmalek, a 19-year-old Cybersecurity student from Algeria.
-                I'm currently studying at USTHB and passionate about all things tech. I explore 
-                web development—front-end, back-end, and design—to build useful and creative
-                solutions. I also have some experience in app development using Java. Always eager
-                to learn and grow, I'm excited about the future and the impact I can make!
+                I'm Hamroun Sami Abdelmalek (19) from Algeria — a curious Cybersecurity
+                student at USTHB who builds web apps and plays CTFs for fun and learning.
+                I’m training to become a pentester, exploring vulnerabilities, exploit development,
+                and real-world security challenges while making useful projects.
               </motion.p>
               
               <motion.div 

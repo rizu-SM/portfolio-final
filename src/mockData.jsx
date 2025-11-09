@@ -9,14 +9,25 @@ import { FaGithub } from "react-icons/fa";
 import { DiJava } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { SiGit } from "react-icons/si";
+import { FaEye } from "react-icons/fa";
+import { SiWireshark, SiBurpsuite } from "react-icons/si";
 import { FaPython, FaJava, FaCuttlefish } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
+import { SiFlask , SiFigma } from "react-icons/si";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 export const skillsNew = [
+  {
+    name: "Burp Suite",
+    img: <SiBurpsuite size={"70%"} />,
+  },
+  {
+    name: "Wireshark",
+    img: <SiWireshark size={"70%"} />,
+  },
   {
     name: "ReactJs",
     img: <FaReact size={"70%"} />,
@@ -74,16 +85,29 @@ export const skillsNew = [
   img: <FaJava size={"70%"} />,
 },
 {
+    name: "Flask",
+    img: <SiFlask size={"70%"} />,
+  },
+  {
+    name: "Figma",
+    img: <SiFigma size={"70%"} />,
+  },
+{
   name: "C++",
   img: <SiCplusplus size={"70%"} />,
 },
+{
+  name: "Nmap",
+  img: <FaEye size={"70%"} />,
+},
+
 ];
 export const projectData = [
   {
     num: "01",
     title: "Simplified File System Management Simulator",
     desc: "A simplified file system simulator that replicates core file management operations in virtual memory. Supports file creation, deletion, modification, metadata handling, and memory compaction. Designed with extensible functionality to mimic real-world file system behavior.",
-    img: `${import.meta.env.BASE_URL}Capture.png`,
+    img: "Capture.png",
     isReverced: true,
     gitUrl: "https://github.com/rizu-SM/File-Management-System-Simulator",
   },
@@ -91,23 +115,23 @@ export const projectData = [
     num: "02",
     title: "ProctorAssign",
     desc: "ProctorAssign is a university exam management platform that streamlines exam scheduling, proctor assignment, and timetable management. It enables automated planning, conflict checking, and the distribution of exam schedules and reports to instructors, ensuring efficient coordination between administration and faculty.",
-    img: "../ProctorAssign.png",
+    img: "ProctorAssign.png",
     isReverced: false,
     gitUrl: "https://github.com/rizu-SM/gestion-exam",
   },
   {
     num: "03",
-    title: "To-Do List App",
-    desc: "A productivity app for managing tasks and notes, with user authentication and notifications. Includes features like task sharing, a coin-based reward system, and multi-user support..",
-    img: "../to_do.png",
+    title: "Web Application Firewall WAF",
+    desc: "PyWAF — A lightweight Python Web Application Firewall that detects and blocks common attacks like SQLi and XSS, with rate limiting, IP management, and a Flask dashboard for real-time monitoring.",
+    img: "waf.jpg",
     isReverced: true,
-    gitUrl: "https://github.com/rizu-SM/to-do-list",
+    gitUrl: "https://github.com/rizu-SM/WAF",
   },
   {
     num: "04",
     title: "Medical Clinic Management",
     desc: "A complete Java application for managing medical clinics, including patient records, doctors, appointments, and prescriptions. Features include advanced search, multi-medication prescriptions, and organized medical history tracking",
-    img: "../pharmacy.png",
+    img: "pharmacy.png",
     isReverced: false,
     gitUrl: "https://github.com/rizu-SM/Gestion-Cabinet-Medical",
   },
