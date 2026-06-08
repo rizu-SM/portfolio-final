@@ -18,7 +18,6 @@ import { FaPython, FaJava, FaCuttlefish } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
 import { SiFlask , SiFigma } from "react-icons/si";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -122,13 +121,14 @@ export const skillsNew = [
 
 ];
 export const projectData = [
+  
   {
     num: "01",
-    title: "Simplified File System Management Simulator",
-    desc: "A simplified file system simulator that replicates core file management operations in virtual memory. Supports file creation, deletion, modification, metadata handling, and memory compaction. Designed with extensible functionality to mimic real-world file system behavior.",
-    img: "Capture.png",
+    title: "HoneyTrap",
+    desc: "A multi-protocol Python honeypot that captures SSH, HTTP, FTP, and Telnet attack attempts. It includes a realistic fake Linux shell, GeoIP enrichment, SQLite storage, a live Flask dashboard with attack maps, REST API endpoints, Docker deployment, and Discord alerts.",
+    img: "honeytrap.png",
     isReverced: true,
-    gitUrl: "https://github.com/rizu-SM/File-Management-System-Simulator",
+    gitUrl: "https://github.com/rizu-SM/honeypot",
   },
   {
     num: "02",
@@ -140,11 +140,11 @@ export const projectData = [
   },
   {
     num: "03",
-    title: "HoneyTrap",
-    desc: "A multi-protocol Python honeypot that captures SSH, HTTP, FTP, and Telnet attack attempts. It includes a realistic fake Linux shell, GeoIP enrichment, SQLite storage, a live Flask dashboard with attack maps, REST API endpoints, Docker deployment, and Discord alerts.",
-    img: "honeytrap.png",
+    title: "Simplified File System Management Simulator",
+    desc: "A simplified file system simulator that replicates core file management operations in virtual memory. Supports file creation, deletion, modification, metadata handling, and memory compaction. Designed with extensible functionality to mimic real-world file system behavior.",
+    img: "Capture.png",
     isReverced: true,
-    gitUrl: "https://github.com/rizu-SM/honeypot",
+    gitUrl: "https://github.com/rizu-SM/File-Management-System-Simulator",
   },
   {
     num: "04",
@@ -154,17 +154,28 @@ export const projectData = [
     isReverced: true,
     gitUrl: "https://github.com/rizu-SM/Cryptographie",
   },
+  {
+    num: "05",
+    title: "Games Store",
+    desc: "A Steam-like online game store built with PHP and MySQL. It includes user authentication, game browsing, advanced search and filters, cart and wishlist flows, secure checkout, purchase history, a personal game library, and an admin dashboard for managing games, users, categories, orders, sales, and revenue.",
+    img: "games_store.jpg",
+    isReverced: false,
+    gitUrl: "https://github.com/rizu-SM/game-store",
+  },
+  {
+    num: "06",
+    title: "AgroConnect DZ - Agricultural Marketplace",
+    desc: "A comprehensive agricultural marketplace for Algeria connecting farmers, buyers, transporters, and veterinarians. Features intelligent product matching, logistics optimization, escrow payments, cold storage booking, livestock support, and real-time market pricing to reduce spoilage and eliminate middlemen.",
+    img: "agroconnect.png",
+    isReverced: true,
+    gitUrl: "https://github.com/rizu-SM/AgroConnect",
+  },
 ];
 
 export const social = [
   {
     icon: <GitHubIcon fontSize="large" />,
     link: "https://github.com/rizu-SM"
-  },
-  {
-   
-    icon: <FacebookOutlinedIcon fontSize="large" />,
-    link: "https://www.facebook.com/sami.hamroun.10?locale=fr_FR"
   },
   {
     icon:<InstagramIcon fontSize="large" />,

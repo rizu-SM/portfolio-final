@@ -65,7 +65,7 @@ const About = () => {
                   <span className="stat-label">Years Experience</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">5+</span>
+                  <span className="stat-number">7+</span>
                   <span className="stat-label">Projects Completed</span>
                 </div>
               </motion.div>
