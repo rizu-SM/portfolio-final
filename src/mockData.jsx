@@ -5,6 +5,9 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { DiJava } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
@@ -65,6 +68,22 @@ export const skillsNew = [
     img: <SiMysql size={"70%"} />,
   },
   {
+    name: "PostgreSQL",
+    img: <SiPostgresql size={"70%"} />,
+  },
+  {
+    name: "MongoDB",
+    img: <SiMongodb size={"70%"} />,
+  },
+  {
+    name: "Docker",
+    img: <SiDocker size={"70%"} />,
+  },
+  {
+    name: "SQLite",
+    img: <SiSqlite size={"70%"} />,
+  },
+  {
     name: "Git",
     img: <SiGit size={"70%"} />,
   },
@@ -113,14 +132,6 @@ export const projectData = [
   },
   {
     num: "02",
-    title: "ProctorAssign",
-    desc: "ProctorAssign is a university exam management platform that streamlines exam scheduling, proctor assignment, and timetable management. It enables automated planning, conflict checking, and the distribution of exam schedules and reports to instructors, ensuring efficient coordination between administration and faculty.",
-    img: "ProctorAssign.png",
-    isReverced: false,
-    gitUrl: "https://github.com/rizu-SM/gestion-exam",
-  },
-  {
-    num: "03",
     title: "Web Application Firewall WAF",
     desc: "PyWAF — A lightweight Python Web Application Firewall that detects and blocks common attacks like SQLi and XSS, with rate limiting, IP management, and a Flask dashboard for real-time monitoring.",
     img: "waf.jpg",
@@ -128,12 +139,20 @@ export const projectData = [
     gitUrl: "https://github.com/rizu-SM/WAF",
   },
   {
+    num: "03",
+    title: "HoneyTrap",
+    desc: "A multi-protocol Python honeypot that captures SSH, HTTP, FTP, and Telnet attack attempts. It includes a realistic fake Linux shell, GeoIP enrichment, SQLite storage, a live Flask dashboard with attack maps, REST API endpoints, Docker deployment, and Discord alerts.",
+    img: "honeytrap.png",
+    isReverced: true,
+    gitUrl: "https://github.com/rizu-SM/honeypot",
+  },
+  {
     num: "04",
-    title: "Medical Clinic Management",
-    desc: "A complete Java application for managing medical clinics, including patient records, doctors, appointments, and prescriptions. Features include advanced search, multi-medication prescriptions, and organized medical history tracking",
-    img: "pharmacy.png",
-    isReverced: false,
-    gitUrl: "https://github.com/rizu-SM/Gestion-Cabinet-Medical",
+    title: "Cryptographie",
+    desc: "A cryptography learning suite with a Flask backend and React + Vite frontend. It demonstrates classical ciphers, symmetric encryption, asymmetric algorithms, digital signatures, secret sharing, key exchange, and hashing through an interactive web interface.",
+    img: "crypto.png",
+    isReverced: true,
+    gitUrl: "https://github.com/rizu-SM/Cryptographie",
   },
 ];
 

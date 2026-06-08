@@ -6,10 +6,9 @@ const Skills = () => {
   // Group skills by category
   const categories = {
     Frontend: ["ReactJs", "Html", "Css", "Javascript", "JavaFX", "Swing"],
-    Backend: ["Nodejs", "Express js","Java","Flask"],
-    Database: ["MySQL"],
-    Tools: ["Github","Git","Figma"],
-    security_tool: ["Burp Suite", "Wireshark", "Nmap"],
+    Backend: ["Nodejs", "Express js","Flask"],
+    Database: ["MySQL","MongoDB","PostgreSQL","SQLite"],
+    Tools: ["Github","Git","Figma","Docker"],
     
     Software: ["C", "Python", "Java","Javascript"],
   };

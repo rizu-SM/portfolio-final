@@ -49,7 +49,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } }}
               >
-                I'm Hamroun Sami Abdelmalek (19) from Algeria — a curious Cybersecurity
+                I'm Hamroun Sami Abdelmalek (20) from Algeria — a curious Cybersecurity
                 student at USTHB who builds web apps and plays CTFs for fun and learning.
                 I’m training to become a pentester, exploring vulnerabilities, exploit development,
                 and real-world security challenges while making useful projects.
