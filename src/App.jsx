@@ -17,7 +17,7 @@ function App() {
       <SideBar />
       <a
         className="blog-link"
-        href="https://terminal-ghost-one.vercel.app/"
+        href="https://blog-1j1m.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
